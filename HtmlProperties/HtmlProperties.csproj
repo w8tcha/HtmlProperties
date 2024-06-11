@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Html Properties (Attributes and Tag Names)</Title>
+    <Version>1.0.0</Version>
+    <Authors>Ingo Herbote</Authors>
+    <Company>Ingo Herbote</Company>
+    <Description>Constants for Html Attributes and Tag Names.</Description>
+    <Copyright>Copyright © Ingo Herbote</Copyright>
+    <PackageProjectUrl>https://github.com/w8tcha/BootstrapEmail.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/w8tcha/BootstrapEmail.Net</RepositoryUrl>
+    <PackageTags>tagbuilder;html;attributes;tags</PackageTags>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+  </PropertyGroup>
+
+</Project>
