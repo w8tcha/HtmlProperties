@@ -10,11 +10,28 @@
     <Company>Ingo Herbote</Company>
     <Description>Constants for Html Attributes and Tag Names.</Description>
     <Copyright>Copyright © Ingo Herbote</Copyright>
-    <PackageProjectUrl>https://github.com/w8tcha/BootstrapEmail.Net</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/w8tcha/BootstrapEmail.Net</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/w8tcha/HtmlProperties</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/w8tcha/HtmlProperties</RepositoryUrl>
     <PackageTags>tagbuilder;html;attributes;tags</PackageTags>
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <FileVersion>1.0.0</FileVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Content>
+  </ItemGroup>
 
 </Project>
