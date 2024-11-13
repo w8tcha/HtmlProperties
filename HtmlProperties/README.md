@@ -1,7 +1,7 @@
 # HtmlProperties
 Constants for Html Attributes and Tag Names.
 
-[![NuGet](https://img.shields.io/nuget/v/StackTraceBeautify.svg)](https://nuget.org/packages/StackTraceBeautify) [![license](https://img.shields.io/hexpm/l/plug.svg)](#)
+[![NuGet](https://img.shields.io/nuget/v/HtmlProperties.svg)](https://nuget.org/packages/HtmlProperties) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Instead of writing all the html tag names and/or attributes like this...
 
