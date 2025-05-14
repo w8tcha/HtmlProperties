@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="HtmlProperties/HtmlProperties.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="HtmlProperties.Tests/HtmlProperties.Tests.csproj" />
+  </Folder>
+</Solution>
