@@ -124,7 +124,7 @@ public struct HtmlAttribute
     public const string Dirname = "dirname";
 
     /// <summary>Specifies that the specified element/group of elements should be disabled</summary>
-    /// <remarks>Only Valid for <see cref="HtmlTag.Button" />, <see cref="HtmlTag.fieldsetfieldset" />,
+    /// <remarks>Only Valid for <see cref="HtmlTag.Button" />,
     /// <see cref="HtmlTag.Input" />, <see cref="HtmlTag.OptionGroup" />, <see cref="HtmlTag.Option" />,
     /// <see cref="HtmlTag.Select" />, <see langword = "textareatextarea" /> .</remarks>
     public const string Disabled = "disabled";
@@ -148,7 +148,7 @@ public struct HtmlAttribute
     public const string For = "for";
 
     /// <summary>Specifies the name of the form the element belongs to</summary>
-    /// <remarks>Only Valid for <see cref="HtmlTag.Button" />, <see cref="HtmlTag.Fieldset" />,
+    /// <remarks>Only Valid for <see cref="HtmlTag.Button" />,
     /// <see cref="HtmlTag.Input" />, <see cref="HtmlTag.Label" />,
     /// <see cref="HtmlTag.Meter" />, <see cref="HtmlTag.Object" />, <see cref="HtmlTag.Output" />,
     /// <see cref="HtmlTag.Select" />, <see cref="HtmlTag.Textarea" /> .</remarks>
@@ -254,7 +254,7 @@ public struct HtmlAttribute
     public const string Muted = "muted";
 
     /// <summary>Specifies the name of the element</summary>
-    /// <remarks>Only Valid for <see cref="HtmlTag.Button" />, <see cref="HtmlTag.Fieldset" />,
+    /// <remarks>Only Valid for <see cref="HtmlTag.Button" />,
     /// <see cref="HtmlTag.Form" />, <see cref="HtmlTag.Iframe" />, <see cref="HtmlTag.Input" />,
     /// <see cref="HtmlTag.Map" />, <see cref="HtmlTag.Meta" />, <see cref="HtmlTag.Object" />,
     /// <see cref="HtmlTag.Output" />, <see cref="HtmlTag.Param" />, <see cref="HtmlTag.Select" />,
