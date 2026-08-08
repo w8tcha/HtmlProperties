@@ -1,0 +1,11 @@
+<svg width="500" height="100" viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+  <title>HtmlProperties</title>
+  <g transform="translate(8,14) scale(0.28125)">
+    <rect x="8" y="8" width="240" height="240" rx="54" fill="#1B1730"/>
+    <polyline points="96,72 54,128 96,184" fill="none" stroke="#FF6B4A" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="160,72 202,128 160,184" fill="none" stroke="#8C6BFF" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="112" y="112" width="32" height="32" rx="8" fill="#FFC857"/>
+  </g>
+  <text x="104" y="66" font-family="'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="44" font-weight="600" fill="#FF6B4A">Html</text>
+  <text x="209" y="66" font-family="'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="44" font-weight="600" fill="#FAF8FC">Properties</text>
+</svg>

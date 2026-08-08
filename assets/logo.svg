@@ -1,0 +1,7 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <title>HtmlProperties</title>
+  <rect x="8" y="8" width="240" height="240" rx="54" fill="#1B1730"/>
+  <polyline points="96,72 54,128 96,184" fill="none" stroke="#FF6B4A" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="160,72 202,128 160,184" fill="none" stroke="#8C6BFF" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="112" y="112" width="32" height="32" rx="8" fill="#FFC857"/>
+</svg>
