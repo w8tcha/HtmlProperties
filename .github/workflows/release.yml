@@ -59,7 +59,7 @@ jobs:
       - name: Push to NuGet.org
         if: steps.check_tag.outputs.exists == 'false'
         shell: bash
-        run: dotnet nuget push artifacts/*.nupkg --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
+        run: dotnet nuget push artifacts/*.nupkg --skip-duplicate --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
 
       - name: Create GitHub Release
         if: steps.check_tag.outputs.exists == 'false'
