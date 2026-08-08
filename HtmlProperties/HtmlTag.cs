@@ -18,6 +18,10 @@ public struct HtmlTag
     /// <summary>Defines contact information for the author/owner of a document. </summary>
     public const string Address = "address";
 
+    /// <summary>Defines an embedded applet. </summary>
+    [Obsolete("Not supported in HTML5. Use <object> instead.")]
+    public const string Applet = "applet";
+
     /// <summary>Defines an area inside an image map. </summary>
     public const string Area = "area";
 
@@ -276,7 +280,7 @@ public struct HtmlTag
     public const string Q = "q";
 
     /// <summary>Defines what to show in browsers that do not support ruby annotations. </summary>
-    public const string Rb = "rb";
+    public const string Rp = "rp";
 
     /// <summary>Defines an explanation/pronunciation of characters (for East Asian typography). </summary>
     public const string Rt = "rt";
