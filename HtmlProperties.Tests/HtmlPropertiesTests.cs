@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using AwesomeAssertions;
 
-using Xunit;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
+using NUnit.Framework;
+
 
 namespace HtmlProperties.Tests;
 
@@ -12,7 +15,7 @@ public class HtmlPropertiesTests
     /// <summary>
     /// Beautify Test with English Stack Trace
     /// </summary>
-    [Fact]
+    [Test]
     public void TestTagAndAttributes()
     {
         const string expected = """<img alt="test image" src="https://test.com/test.jpg" />""";
@@ -30,6 +33,6 @@ public class HtmlPropertiesTests
         // Render tag
         var result = builder.RenderToString();
 
-        Assert.Equal(expected, result);
+        result.Should().Be(expected);
     }
 }
