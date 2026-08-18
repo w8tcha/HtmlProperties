@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Title>Html Properties (Attributes and Tag Names)</Title>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Ingo Herbote</Authors>
     <Company>Ingo Herbote</Company>
     <Description>Constants for Html Attributes and Tag Names.</Description>
@@ -13,8 +13,8 @@
     <PackageProjectUrl>https://github.com/w8tcha/HtmlProperties</PackageProjectUrl>
     <RepositoryUrl>https://github.com/w8tcha/HtmlProperties</RepositoryUrl>
     <PackageTags>tagbuilder;html;attributes;tags</PackageTags>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>

@@ -28,6 +28,167 @@ public struct HtmlAttribute
     /// <remarks>Only Valid for <see cref="HtmlTag.Area" />, <see cref="HtmlTag.Img" />, <see cref="HtmlTag.Input" /> .</remarks>
     public const string Alt = "alt";
 
+    /// <summary>Identifies the currently active element when focus is on a composite widget, combobox, textbox, group, or application</summary>
+    public const string AriaActiveDescendant = "aria-activedescendant";
+
+    /// <summary>Indicates whether assistive technologies will present all, or only parts of, a changed region in an ARIA live region</summary>
+    public const string AriaAtomic = "aria-atomic";
+
+    /// <summary>Indicates whether inputting text could trigger display of one or more predictions for a combobox, searchbox, or textbox</summary>
+    public const string AriaAutocomplete = "aria-autocomplete";
+
+    /// <summary>Defines a string value that labels the current element, intended to be converted into Braille</summary>
+    public const string AriaBrailleLabel = "aria-braillelabel";
+
+    /// <summary>Defines an abbreviated description for the role of an element, intended to be converted into Braille</summary>
+    public const string AriaBrailleRoleDescription = "aria-brailleroledescription";
+
+    /// <summary>Indicates whether an element is currently being modified or experiencing ongoing changes</summary>
+    public const string AriaBusy = "aria-busy";
+
+    /// <summary>Indicates the current "checked" state of checkboxes, radio buttons, and other widgets</summary>
+    public const string AriaChecked = "aria-checked";
+
+    /// <summary>Defines the total number of columns in a table, grid, or treegrid when not all columns are present in the DOM</summary>
+    public const string AriaColCount = "aria-colcount";
+
+    /// <summary>Defines an element's column index or position with respect to the total number of columns</summary>
+    public const string AriaColIndex = "aria-colindex";
+
+    /// <summary>Defines a human readable text alternative of the numeric <see cref="AriaColIndex" /></summary>
+    public const string AriaColIndexText = "aria-colindextext";
+
+    /// <summary>Defines the number of columns spanned by a cell or gridcell within a table, grid, or treegrid</summary>
+    public const string AriaColSpan = "aria-colspan";
+
+    /// <summary>Identifies the element (or elements) whose contents or presence are controlled by the element on which this attribute is set</summary>
+    public const string AriaControls = "aria-controls";
+
+    /// <summary>Indicates that an element represents the current item within a container or set of related elements</summary>
+    public const string AriaCurrent = "aria-current";
+
+    /// <summary>Identifies the element (or elements) that describes the element on which the attribute is set</summary>
+    public const string AriaDescribedBy = "aria-describedby";
+
+    /// <summary>Defines a string value that describes or annotates the current element</summary>
+    public const string AriaDescription = "aria-description";
+
+    /// <summary>Identifies the element (or elements) that provide additional information related to the object</summary>
+    public const string AriaDetails = "aria-details";
+
+    /// <summary>Indicates that the element is perceivable but disabled, so it is not editable or otherwise operable</summary>
+    public const string AriaDisabled = "aria-disabled";
+
+    /// <summary>Indicates what functions may be performed when a dragged object is released on the drop target</summary>
+    [Obsolete("Deprecated in ARIA 1.1.")]
+    public const string AriaDropEffect = "aria-dropeffect";
+
+    /// <summary>Identifies the element that provides an error message for the object</summary>
+    public const string AriaErrorMessage = "aria-errormessage";
+
+    /// <summary>Specifies that the HTML <see langword="aria-expanded" /> attribute be written to the tag.</summary>
+    public const string AriaExpanded = "aria-expanded";
+
+    /// <summary>Identifies the next element (or elements) in an alternate reading order of content</summary>
+    public const string AriaFlowTo = "aria-flowto";
+
+    /// <summary>Indicates an element's "grabbed" state in a drag-and-drop operation</summary>
+    [Obsolete("Deprecated in ARIA 1.1.")]
+    public const string AriaGrabbed = "aria-grabbed";
+
+    /// <summary>Indicates the availability and type of interactive popup element that can be triggered by the element</summary>
+    public const string AriaHasPopup = "aria-haspopup";
+
+    /// <summary>Indicates whether the element is exposed to an accessibility API</summary>
+    public const string AriaHidden = "aria-hidden";
+
+    /// <summary>Indicates the entered value does not conform to the format expected by the application</summary>
+    public const string AriaInvalid = "aria-invalid";
+
+    /// <summary>Indicates keyboard shortcuts that an author has implemented to activate or give focus to an element</summary>
+    public const string AriaKeyShortcuts = "aria-keyshortcuts";
+
+    /// <summary>Specifies that the HTML <see langword="aria-label" /> attribute be written to the tag.</summary>
+    public const string AriaLabel = "aria-label";
+
+    /// <summary>Identifies the element (or elements) that labels the element it is applied to</summary>
+    public const string AriaLabelledBy = "aria-labelledby";
+
+    /// <summary>Defines the hierarchical level of an element within a structure</summary>
+    public const string AriaLevel = "aria-level";
+
+    /// <summary>Indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region</summary>
+    public const string AriaLive = "aria-live";
+
+    /// <summary>Indicates whether an element is modal when displayed</summary>
+    public const string AriaModal = "aria-modal";
+
+    /// <summary>Indicates whether a textbox accepts multiple lines of input or only a single line</summary>
+    public const string AriaMultiline = "aria-multiline";
+
+    /// <summary>Indicates that the user may select more than one item from the current selectable descendants</summary>
+    public const string AriaMultiSelectable = "aria-multiselectable";
+
+    /// <summary>Indicates whether the element's orientation is horizontal, vertical, or unknown/ambiguous</summary>
+    public const string AriaOrientation = "aria-orientation";
+
+    /// <summary>Identifies an element (or elements) in order to define a visual, functional, or contextual relationship between a parent and its child elements, when the DOM hierarchy cannot be used to represent the relationship</summary>
+    public const string AriaOwns = "aria-owns";
+
+    /// <summary>Defines a short hint intended to help the user with data entry when a form control has no value</summary>
+    public const string AriaPlaceholder = "aria-placeholder";
+
+    /// <summary>Defines an element's number or position in the current set of listitems or treeitems when not all items are present in the DOM</summary>
+    public const string AriaPosInSet = "aria-posinset";
+
+    /// <summary>Indicates the current "pressed" state of toggle buttons</summary>
+    public const string AriaPressed = "aria-pressed";
+
+    /// <summary>Indicates that the element is not editable, but is otherwise operable</summary>
+    public const string AriaReadOnly = "aria-readonly";
+
+    /// <summary>Indicates what notifications the user agent will trigger when the accessibility tree within a live region is modified</summary>
+    public const string AriaRelevant = "aria-relevant";
+
+    /// <summary>Indicates that user input is required on the element before a form may be submitted</summary>
+    public const string AriaRequired = "aria-required";
+
+    /// <summary>Defines a human readable, author-localized description for the role of an element</summary>
+    public const string AriaRoleDescription = "aria-roledescription";
+
+    /// <summary>Defines the total number of rows in a table, grid, or treegrid</summary>
+    public const string AriaRowCount = "aria-rowcount";
+
+    /// <summary>Defines an element's position with respect to the total number of rows within a table, grid, or treegrid</summary>
+    public const string AriaRowIndex = "aria-rowindex";
+
+    /// <summary>Defines a human readable text alternative of <see cref="AriaRowIndex" /></summary>
+    public const string AriaRowIndexText = "aria-rowindextext";
+
+    /// <summary>Defines the number of rows spanned by a cell or gridcell within a table, grid, or treegrid</summary>
+    public const string AriaRowSpan = "aria-rowspan";
+
+    /// <summary>Indicates the current "selected" state of various widgets</summary>
+    public const string AriaSelected = "aria-selected";
+
+    /// <summary>Defines the number of items in the current set of listitems or treeitems when not all items in the set are present in the DOM</summary>
+    public const string AriaSetSize = "aria-setsize";
+
+    /// <summary>Indicates if items in a table or grid are sorted in ascending or descending order</summary>
+    public const string AriaSort = "aria-sort";
+
+    /// <summary>Defines the maximum allowed value for a range widget</summary>
+    public const string AriaValueMax = "aria-valuemax";
+
+    /// <summary>Defines the minimum allowed value for a range widget</summary>
+    public const string AriaValueMin = "aria-valuemin";
+
+    /// <summary>Defines the current value for a range widget</summary>
+    public const string AriaValueNow = "aria-valuenow";
+
+    /// <summary>Defines the human readable text alternative of <see cref="AriaValueNow" /> for a range widget</summary>
+    public const string AriaValueText = "aria-valuetext";
+
     /// <summary>Specifies that the script is executed asynchronously (only for external scripts)</summary>
     /// <remarks>Only Valid for <see cref="HtmlTag.Script" /> .</remarks>
     public const string Async = "async";
@@ -43,12 +204,6 @@ public struct HtmlAttribute
     /// <summary>Specifies that the audio/video will start playing as soon as it is ready</summary>
     /// <remarks>Only Valid for <see cref="HtmlTag.Audio" />, <see cref="HtmlTag.Video" /> .</remarks>
     public const string Autoplay = "autoplay";
-
-    /// <summary>Specifies that the HTML <see langword="aria-label" /> attribute be written to the tag.</summary>
-    public const string AriaLabel = "aria-label";
-
-    /// <summary>Specifies that the HTML <see langword="aria-expanded" /> attribute be written to the tag.</summary>
-    public const string AriaExpanded = "aria-expanded";
 
     /// <summary>Specifies the background color of an element. Use CSS instead</summary>
     [Obsolete("Not supported in HTML 5.")]
